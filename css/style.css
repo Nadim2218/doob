@@ -1,0 +1,578 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/* common css end */
+/* nav part start */
+#nav{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.nav-logo{
+    width: 14%;
+    height: 100%;
+    padding-top: 30px;
+}
+.nav-menu{
+    width: 50%;
+    height: 100%;
+    padding-top: 30px;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu ul li a{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    border: 2px solid transparent;
+    border-style: calc(100% - 10px);
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.nav-menu ul li a:hover{
+    background-color:#314584 ;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+.nav-text{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+
+}
+.n-t h3{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #314584;
+}
+.n-t{
+    padding-right: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.nt1{
+    padding-bottom: 10px;
+}
+.nt1 button{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border: transparent;
+    transition: 0.4s;
+}
+.nt1 button a{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.nt1 button:hover{
+    background-color: #314584;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+.nt1 button:hover a{
+    color: white;
+}
+/* nav part end */
+/* banner part start */
+#banner{
+    width: 100%;
+    height: 700px;
+    background: url(../images/banner.jpg) no-repeat right;
+    background-size: contain;
+}
+.banner-main{
+    width: 100%;
+    height: 100%;
+}
+.banner-text{
+    padding-top: 260px;
+    padding-left: 80px;
+}
+.banner-text h1{
+    font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+}
+.banner-text p{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    width: 500px;
+    padding-top: 30px;
+}
+.b-t a{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #314584;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 50px;
+    transition: 0.4s;
+    background-color: antiquewhite;
+}
+.b-t a:hover{
+    background-color: #ff3946 ;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+/* banner part end */
+/* design part start */
+#design{
+    width: 100%;
+    height: 1000px;
+    background: url(../images/side.png) center;
+}
+.design-main{
+    width: 100%;
+    display: flex;
+}
+.design-text{
+    width: 35%;
+}
+.design-text h1{
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    width: 300px;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.design-all{
+    width: 65%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.d-one{
+    width: 48%;
+    height: 100%;
+    border: 2px solid transparent;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+.d-one h2{
+    font-size: 27px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    width: 300px;
+    padding-left: 30px;
+}
+.d-one i{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.d-one p{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.b-t span{
+    margin-left: 77px;
+}
+.company{
+    padding-top: 200px;
+    width: 100%;
+    display: flex;
+}
+.company-img{
+    width: 50%;
+}
+.company-img img{
+    width: 100%;
+}
+.company-text{
+    width: 50%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.company-text h5{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #ff3946;
+}
+.company-text h1{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.company-text p{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: black;
+    width: 560px;
+}
+.company-text button{
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    border: 2px solid transparent;
+    margin-top: 30px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.company-text button a{
+    color: #314584;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.company-text button:hover{
+    background-color: #314584;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+.company-text button:hover a{
+    color: white;
+
+}
+/* design part end */
+/* work part start */
+#work{
+    width: 100%;
+    height: 1350px;
+    background: url(../images/side.png) center;
+}
+.w-h h1{
+    width: 400px;
+    padding-left: 77px;
+    padding-top: 20px;
+    font-size: 35px;
+    color: #314584;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.work-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 77px;
+    padding-top: 40px;
+}
+.work-inner{
+    width: 31%;
+}
+.work-one{
+    width: 100%;
+    position: relative;
+    transition: 0.4s;
+    margin-bottom: 40px;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+.work-one:hover .overlay{
+    opacity: 1;
+    width: 100%;
+}
+.overlay button{
+    padding: 10px 20px;
+    background-color: rgba(250, 235, 215, 0.564);
+    border: 2px solid transparent;
+    margin-left: 122px;
+    margin-top: 125px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.overlay button:hover{
+    background-color: #314584;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    padding: 20px 20px;
+}
+.overlay button a{
+    color: black;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    transition: 0.4s;
+}
+.overlay button:hover a{
+    color: white;
+}
+.work-one img{
+    width: 100%;
+}
+.w-s{
+    text-align: center;
+}
+.w-s a{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #ff3946;
+}
+.blog-h{
+    padding-left: 77px;
+    padding-top: 50px;
+}
+.blog-h h1{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #ff3946;
+    padding-bottom: 15px;
+}
+.blog-h h5{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+}
+.blog-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.blog-one{
+    width: 33%;
+    height: 300px;
+    border: 2px solid gray;
+    margin-top: 40px;
+    margin-left: 77px;
+    transition: 0.4s;
+}
+.blog-one:hover{
+    background-color: #ff3946;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    padding-right: 30px;
+    height: 320px;
+}
+.blog-one:hover h1{
+    color: white;
+}
+.blog-one:hover p{
+    color: white;
+}
+.blog-one:hover h5{
+    color: white;
+}
+.blog-one:hover i{
+    color: white;
+}
+.blog-one h1{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    padding-top: 30px;
+    padding-left: 30px;
+    transition: 0.4s;
+}
+.blog-one p{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: gray;
+    padding-top: 10px;
+    padding-left: 30px;
+    transition: 0.4s;
+}
+.blog-one h5{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 300px;
+    transition: 0.4s;
+}
+.blog-one a i{
+    font-size: 18px;
+    color: #ff3946;
+    padding-top: 60px;
+    padding-left: 280px;
+    transition: 0.4s;
+}    
+/* work part end */
+/* contact part start */
+#contact{
+    width: 100%;
+    height: 480px;
+}
+.contact-head{
+    width: 100%;
+    height: 100%;
+    padding-left: 77px;
+    padding-top: 50px;
+}
+.contact-head h1{
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #ff3946;
+    padding-bottom: 15px;
+}
+.contact-head h3{
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: #314584;
+}
+.contact-main{
+    width: 100%;
+    height: 100%;
+    padding-left: 77px;
+    padding-top: 40px;
+}
+.contact-main input{
+    padding: 10px 300px 10px 10px;
+    margin-right: 10px;
+    background-color: #f4fafe;
+    border: transparent;
+    color: #314584 ;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.contact-main span input{
+    padding: 10px 860px 76px 10px;
+    margin-top: 30px;
+    color: #314584 ;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+.contact-main button{
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 426px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    background-color: antiquewhite;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contact-main button a{
+    color: black ;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    transition: 0.4s;
+}
+.contact-main button:hover{
+    background-color: #314584;
+    box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 5px 2px rgba(0,0,0,0.75);
+}
+.contact-main button:hover a{
+    color: white;
+}
+/* contact part end */
+/* footer part start */
+#footer{
+    width: 100%;
+    height: 260px;
+    background-color: #314584;
+}
+.footer-main{
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-main h5{
+    color: white;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.footer-main h1{
+    color: #ff3946;
+    font-size: 35px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.f-m{
+    display: flex;
+    justify-content: center;
+}
+.f-m p{
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: white;
+    cursor: pointer;
+}
+.footer-main h6{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: white;
+}
+.f-icon a{
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+/* footer part end */
